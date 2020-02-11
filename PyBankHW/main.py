@@ -32,6 +32,9 @@ with open(data, newline='') as csvfile:
 
         date.append(row[0])
 
-        print("Total Months: " +str(months))
+        
+        
+    print("Total Months: " +str(months))
 
 
+final = int(row[1])
