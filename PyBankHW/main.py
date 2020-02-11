@@ -1,3 +1,8 @@
+title = "Financial Analysis"
+print(title)
+
+print("--------------------------------")
+
 import os
 import csv
 
@@ -38,3 +43,5 @@ with open(data, newline='') as csvfile:
 
 
 final = int(row[1])
+
+
