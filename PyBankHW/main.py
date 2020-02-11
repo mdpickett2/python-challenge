@@ -1,7 +1,4 @@
-title = "Financial Analysis"
-print(title)
 
-print("--------------------------------")
 
 import os
 import csv
@@ -36,12 +33,12 @@ with open(data, newline='') as csvfile:
         months = months + 1
 
         date.append(row[0])
+    
 
-        
-        
-    print("Total Months: " +str(months))
+
+print("Financial Analysis")
+print("--------------------------------")    
+print("Total Months: " +str(months))
 
 
 final = int(row[1])
-
-
